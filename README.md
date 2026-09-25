@@ -1,4 +1,4 @@
-# Ritesh-Varma-Dommaraju
+
 <h1 align="center">Hi, I'm Ritesh Varma Dommaraju 👋</h1>
 
 ---
