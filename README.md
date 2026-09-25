@@ -3,7 +3,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 640px)" srcset="./assets/header-mobile.png" />
-    <img src="./assets/header.png" width="100%" alt="Ritesh Varma Dommaraju — Thoughtful interfaces. Resilient systems. Software engineering, applied AI, and cloud infrastructure." />
+    <img src="./assets/header.png" width="100%" alt="Ritesh Varma Dommaraju - Thoughtful interfaces. Resilient systems. Software engineering, applied AI, and cloud infrastructure." />
   </picture>
 </p>
 
