@@ -1,112 +1,49 @@
+<h1 align="center">Ritesh Varma Dommaraju</h1>
 
-<h1 align="center">Hi, I'm Ritesh Varma Dommaraju 👋</h1>
+<p align="center">
+  <strong>Software Engineering · Applied AI · Cloud Infrastructure</strong>
+</p>
 
----
-
-## 🚀 About Me
-
-I’m a **Computer Science master’s graduate from Southern Illinois University Carbondale**, with experience in **cloud infrastructure, DevOps, and software development**.
-
-My interests include **LLM systems, retrieval-augmented generation (RAG), and knowledge graphs**, alongside building reliable applications and automating their deployment.
-
-I enjoy working across **application development, infrastructure, CI/CD, and monitoring** to understand how systems work from code to production.
-
----
-
-## 🧠 Technical Skills
-
-### Languages & Scripting
-
-Python • SQL • Bash
-
-### Cloud & Infrastructure
-
-AWS • Azure • Terraform • Linux • IAM
-
-### Containers & Orchestration
-
-Docker • Kubernetes • Amazon EKS • Azure AKS • Helm
-
-### CI/CD & Development Tools
-
-Jenkins • Azure DevOps • Git • GitHub
-
-### Monitoring & Observability
-
-Azure Monitor • Log Analytics • Prometheus • Grafana • ELK Stack
-
-### AI & Research Interests
-
-LLM Systems • Retrieval-Augmented Generation (RAG)  
-Knowledge Graphs • Multi-Agent Systems • Neuro-Symbolic Reasoning
-
-### Core Concepts
-
-Infrastructure as Code • Continuous Integration & Delivery  
-Cloud Networking • Deployment Automation • Troubleshooting  
-Distributed Systems • Application Reliability
+<p align="center">
+  <a href="mailto:dommarajuritesh@gmail.com">dommarajuritesh@gmail.com</a>
+  ·
+  <a href="https://github.com/riteshvd">GitHub</a>
+</p>
 
 ---
 
-## 🧩 Featured Projects
+## The interesting problems start beyond the happy path.
 
-### ✅ Proof-Pulse
+An AI answer should come with evidence. A failed delivery should have a recovery path. Shipping a change should not depend on someone remembering a dozen manual steps.
 
-*Java*
+These are the problems I like working on.
 
-🔗 [View Repository](https://github.com/riteshvd/Proof-Pulse)
+I'm a **Computer Science graduate from Southern Illinois University Carbondale**, with a background in **cloud and DevOps engineering**. My projects connect **applied AI, backend systems, and full-stack development**—from document research and natural-language analytics to webhook delivery and cloud deployment.
 
----
+I approach application development with an infrastructure mindset: consider how software behaves, how it fails, and how someone else will understand it.
 
-### 🚀 Enterprise CI/CD Platform
+## Selected Projects
 
-*AWS • Kubernetes • Python*
+| Project | What it does | Engineering focus |
+| --- | --- | --- |
+| **[GroundLens](https://github.com/riteshvd/groundlens)** | Supports AI-assisted document research with retrieval, cited answers, and source-evidence inspection. | Applied AI · Retrieval · Grounded answers |
+| **[QueryCanvas](https://github.com/riteshvd/querycanvas)** | Turns questions about CSV data into an inspectable workflow of generated SQL, results, and charts. | Natural-language analytics · SQL · Python |
+| **[RelayQueue](https://github.com/riteshvd/relayqueue)** | Delivers webhooks with automatic retries, signed requests, and a dashboard for reviewing deliveries. | TypeScript · Backend services · Reliability |
+| **[SupportDesk](https://github.com/riteshvd/supportdesk)** | Provides a full-stack support-ticket application with workspace permissions and audit history. | React · FastAPI · Full-stack development |
+| **[Enterprise CI/CD Platform](https://github.com/riteshvd/enterprise-cicd-platform)** | Explores cloud-native application delivery and monitoring on AWS and Kubernetes. | AWS · Kubernetes · CI/CD |
 
-A cloud-native CI/CD project focused on application deployment and infrastructure workflows.
+## Technical Toolkit
 
-🔗 [View Repository](https://github.com/riteshvd/enterprise-cicd-platform)
+| Area | Technologies and concepts |
+| --- | --- |
+| **Languages** | Python, TypeScript, Java, SQL, Bash |
+| **Application Development** | React, FastAPI, REST APIs, webhooks |
+| **Applied AI** | LLM applications, retrieval-augmented generation, document retrieval, natural-language-to-SQL workflows |
+| **Cloud & Delivery** | AWS, Azure, Docker, Kubernetes, Terraform, Jenkins, Azure DevOps, Linux |
+| **Observability** | Prometheus, Grafana, Azure Monitor, Log Analytics |
 
----
+## What I'm Looking For
 
-### 🛡️ Spam Detection System
+**Software engineering, applied AI, and cloud engineering opportunities** where I can contribute to useful products and the systems that keep them running.
 
-*Python*
-
-A project exploring automated spam detection.
-
-🔗 [View Repository](https://github.com/riteshvd/spam-detection-system)
-
----
-
-### 🤟 Real-Time Sign Language Recognition
-
-*Jupyter Notebook*
-
-A project exploring sign language recognition.
-
-🔗 [View Repository](https://github.com/riteshvd/Real-Time-Sign-Language-Recogniton)
-
----
-
-## 🔬 Research Interests
-
-I’m interested in how AI systems can better understand context, reason through complex tasks, and support collaborative software development.
-
-My areas of interest include:
-
-- Combining language models with retrieval for context-aware responses.
-- Using generation and verification agents to evaluate code.
-- Extracting structured information from team conversations.
-- Representing relationships through knowledge graphs.
-
----
-
-## 📫 Connect With Me
-
-- **GitHub:** [github.com/riteshvd](https://github.com/riteshvd)
-
-<!-- Add your current LinkedIn URL and professional email here. -->
-
----
-
-⭐ *Explore my projects or reach out to connect about cloud engineering, DevOps, software development, and applied AI.*
+For opportunities or collaboration, reach me at **[dommarajuritesh@gmail.com](mailto:dommarajuritesh@gmail.com)**.
