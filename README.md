@@ -42,7 +42,7 @@ Five projects. Different problems. A shared interest in making the behavior visi
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/riteshvd/querycanvas">
-        <img src="./assets/querycanvas.png" width="100%" alt="QueryCanvas — natural-language analytics with inspectable SQL and results." />
+        <img src="./assets/querycanvas.png" width="100%" alt="QueryCanvas - natural-language analytics with inspectable SQL and results." />
       </a>
       <h3><a href="https://github.com/riteshvd/querycanvas">QueryCanvas</a></h3>
       <p>A local analytics notebook connecting questions about CSV data to SQL, database rows, and charts.</p>
