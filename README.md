@@ -16,7 +16,7 @@
 
 ## Hey, I'm Ritesh 👋
 
-**I like software that feels simple to use—and has an interesting engineering story underneath.**
+**I like software that feels simple to use - and has an interesting engineering story underneath.**
 
 I'm a Computer Science graduate from **Southern Illinois University Carbondale**, with a background in **cloud and DevOps engineering**. My interests sit where product development meets systems thinking: inspectable AI, reliable backend workflows, and the infrastructure that supports them.
 
@@ -54,7 +54,7 @@ Five projects. Different problems. A shared interest in making the behavior visi
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/riteshvd/relayqueue">
-        <img src="./assets/relayqueue.png" width="100%" alt="RelayQueue — persisted webhook events, retries, and recovery." />
+        <img src="./assets/relayqueue.png" width="100%" alt="RelayQueue - persisted webhook events, retries, and recovery." />
       </a>
       <h3><a href="https://github.com/riteshvd/relayqueue">RelayQueue</a></h3>
       <p>A durable webhook-delivery service with signed requests, a retry worker, and an operations dashboard.</p>
