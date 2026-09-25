@@ -1,0 +1,173 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ritesh — GitHub profile preview</title><style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--page);color:var(--fg);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+body.dark{--page:#0d1117;--panel:#0d1117;--fg:#e6edf3;--muted:#919aa8;--border:#30363d;--link:#58a6ff;--code:rgba(110,118,129,.22);--stripe:#161b22}
+body.light{--page:#ffffff;--panel:#ffffff;--fg:#1f2328;--muted:#656d76;--border:#d0d7de;--link:#0969da;--code:rgba(175,184,193,.2);--stripe:#f6f8fa}
+.shell{max-width:1012px;margin:28px auto;padding:0 20px}.readme-label{border:1px solid var(--border);border-radius:6px 6px 0 0;padding:14px 24px;color:var(--fg);font-size:14px;font-weight:600}.dot{display:inline-block;width:8px;height:8px;background:#a49ae8;border-radius:50%;margin-right:10px}.markdown-body{padding:32px;border:1px solid var(--border);border-top:0;border-radius:0 0 6px 6px;background:var(--panel);overflow-wrap:break-word}.markdown-body>*:first-child{margin-top:0}.markdown-body>*:last-child{margin-bottom:0}p{margin:0 0 16px}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}h1,h2,h3{font-weight:600;line-height:1.25;margin:24px 0 16px}h2{font-size:24px;padding-bottom:.3em;border-bottom:1px solid var(--border)}h3{font-size:20px}img{max-width:100%;height:auto;vertical-align:middle}table{border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto;margin:0 0 16px}tr{background:var(--panel);border-top:1px solid var(--border)}tr:nth-child(2n){background:var(--stripe)}td,th{border:1px solid var(--border);padding:6px 13px}th{font-weight:600;text-align:left}td[width]{padding:14px}td[colspan]{padding:14px}td[width] p,td[colspan] p{margin-bottom:16px}td[width] p:last-child,td[colspan] p:last-child{margin-bottom:4px}code{font:85%/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--code);padding:.2em .4em;border-radius:6px;white-space:nowrap}hr{height:2px;padding:0;margin:28px 0;border:0;background:var(--border)}details{margin:16px 0 24px}summary{cursor:pointer}details[open] summary{margin-bottom:18px}details img{display:block;margin:12px 0 24px}
+@media(max-width:650px){.shell{margin:0;padding:0}.readme-label{border-radius:0;padding:10px 16px}.markdown-body{padding:16px;border-left:0;border-right:0}h2{font-size:21px}table td[width]{padding:8px}table h3{font-size:18px}table td[width] p{font-size:14px}code{white-space:normal}table td[colspan]{padding:8px}}
+</style><body class="dark"><main class="shell"><div class="readme-label"><span class="dot"></span>riteshvd / README.md</div><article class="markdown-body"><!-- Profile README for riteshvd. Upload README.md AND the assets folder. -->
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/header-mobile.png" />
+    <img src="./assets/header.png" width="100%" alt="Ritesh Varma Dommaraju — Thoughtful interfaces. Resilient systems. Software engineering, applied AI, and cloud infrastructure." />
+  </picture>
+</p>
+<p align="center">
+  <a href="#portfolio-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="#portfolio-engineering">Under the hood</a> &nbsp; / &nbsp;
+  <a href="#portfolio-toolbox">Toolbox</a> &nbsp; / &nbsp;
+  <a href="mailto:dommarajuritesh@gmail.com">Get in touch</a>
+</p>
+<h2>Hey, I'm Ritesh 👋</h2>
+<p><strong>I like software that feels simple to use—and has an interesting engineering story underneath.</strong></p>
+<p>I'm a Computer Science graduate from <strong>Southern Illinois University Carbondale</strong>, with a background in <strong>cloud and DevOps engineering</strong>. My interests sit where product development meets systems thinking: inspectable AI, reliable backend workflows, and the infrastructure that supports them.</p>
+<p>An answer should show its evidence. A retry should preserve its history. A deployment should be traceable to a change. Those ideas connect the projects below.</p>
+<p><a name="portfolio-work"></a></p>
+<h2>Selected work 🚀</h2>
+<p>Five projects. Different problems. A shared interest in making the behavior visible.</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/riteshvd/groundlens">
+        <img src="./assets/groundlens.png" width="100%" alt="GroundLens — document research with source evidence." />
+      </a>
+      <h3><a href="https://github.com/riteshvd/groundlens">GroundLens</a></h3>
+      <p>A document-research workbench that makes the path from source passage to answer inspectable.</p>
+      <p><strong>Engineering detail:</strong> citation and exact-quote checks, optional hybrid retrieval, and explicit abstention paths.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Ollama</code> <code>SQLite</code></p>
+      <p><a href="https://github.com/riteshvd/groundlens#run-the-demo">Run locally ↗</a> &nbsp; · &nbsp; <a href="https://github.com/riteshvd/groundlens#design">Design notes ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/riteshvd/querycanvas">
+        <img src="./assets/querycanvas.png" width="100%" alt="QueryCanvas — natural-language analytics with inspectable SQL and results." />
+      </a>
+      <h3><a href="https://github.com/riteshvd/querycanvas">QueryCanvas</a></h3>
+      <p>A local analytics notebook connecting questions about CSV data to SQL, database rows, and charts.</p>
+      <p><strong>Engineering detail:</strong> read-only query execution, bounded tool calls, and charts derived from returned data.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Ollama</code> <code>SQL</code></p>
+      <p><a href="https://github.com/riteshvd/querycanvas#run-locally">Run locally ↗</a> &nbsp; · &nbsp; <a href="https://github.com/riteshvd/querycanvas#how-execution-is-bounded">Execution boundaries ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/riteshvd/relayqueue">
+        <img src="./assets/relayqueue.png" width="100%" alt="RelayQueue — persisted webhook events, retries, and recovery." />
+      </a>
+      <h3><a href="https://github.com/riteshvd/relayqueue">RelayQueue</a></h3>
+      <p>A durable webhook-delivery service with signed requests, a retry worker, and an operations dashboard.</p>
+      <p><strong>Engineering detail:</strong> idempotency, expiring leases, stale-worker fencing, and dead-letter replay.</p>
+      <p><code>TypeScript</code> <code>Node.js</code> <code>Fastify</code> <code>SQLite</code></p>
+      <p><a href="https://github.com/riteshvd/relayqueue#quick-start">Run locally ↗</a> &nbsp; · &nbsp; <a href="https://github.com/riteshvd/relayqueue#how-delivery-works">Delivery semantics ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/riteshvd/supportdesk">
+        <img src="./assets/supportdesk.png" width="100%" alt="SupportDesk — full-stack ticket workflows with workspace permissions and history." />
+      </a>
+      <h3><a href="https://github.com/riteshvd/supportdesk">SupportDesk</a></h3>
+      <p>A full-stack ticket workspace for triage, assignment, comments, and the history behind each change.</p>
+      <p><strong>Engineering detail:</strong> workspace-scoped authorization, revocable sessions, and stale-edit conflict detection.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>FastAPI</code> <code>PostgreSQL</code></p>
+      <p><a href="https://github.com/riteshvd/supportdesk#quick-start">Run locally ↗</a> &nbsp; · &nbsp; <a href="https://github.com/riteshvd/supportdesk#architecture-and-decisions">Architecture ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/riteshvd/enterprise-cicd-platform">
+        <img src="./assets/enterprise-cicd-platform.png" width="100%" alt="Enterprise CI/CD Platform — build, scan, registry, Kubernetes deployment, and observability." />
+      </a>
+      <h3><a href="https://github.com/riteshvd/enterprise-cicd-platform">Enterprise CI/CD Platform</a></h3>
+      <p>A cloud-native delivery project connecting container builds and image scanning to AWS deployment and monitoring.</p>
+      <p><strong>Engineering detail:</strong> infrastructure as code, deployment metadata, and application and cluster observability.</p>
+      <p><code>AWS</code> <code>Terraform</code> <code>Docker</code> <code>Kubernetes</code> <code>Prometheus</code> <code>Grafana</code></p>
+      <p><a href="https://github.com/riteshvd/enterprise-cicd-platform#architecture-flow">Architecture flow ↗</a> &nbsp; · &nbsp; <a href="https://github.com/riteshvd/enterprise-cicd-platform#infrastructure">Infrastructure ↗</a></p>
+    </td>
+  </tr>
+</table>
+<details>
+<summary><strong>See the application interfaces</strong></summary>
+<p>Screenshots published in the project repositories. These are local portfolio applications, not hosted production services. GroundLens and QueryCanvas offer no-model demo modes and optional Ollama integration.</p>
+<h3>GroundLens · Document research</h3>
+<p><a href="https://github.com/riteshvd/groundlens"><img src="https://raw.githubusercontent.com/riteshvd/groundlens/main/docs/dashboard.png" alt="GroundLens research workspace" /></a></p>
+<h3>QueryCanvas · Analytics notebook</h3>
+<p><a href="https://github.com/riteshvd/querycanvas"><img src="https://raw.githubusercontent.com/riteshvd/querycanvas/main/docs/dashboard.png" alt="QueryCanvas analysis notebook" /></a></p>
+<h3>RelayQueue · Delivery operations</h3>
+<p><a href="https://github.com/riteshvd/relayqueue"><img src="https://raw.githubusercontent.com/riteshvd/relayqueue/main/docs/dashboard.png" alt="RelayQueue operations dashboard" /></a></p>
+<h3>SupportDesk · Ticket workspace</h3>
+<p><a href="https://github.com/riteshvd/supportdesk"><img src="https://raw.githubusercontent.com/riteshvd/supportdesk/main/docs/dashboard.png" alt="SupportDesk ticket inbox" /></a></p>
+</details>
+<p><a name="portfolio-engineering"></a></p>
+<h2>Under the hood</h2>
+<p><strong>The questions I find more interesting than “which framework?”</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Question</th>
+<th style="text-align:left">Explore it in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">What evidence supports an AI answer—and when should the system abstain?</td>
+<td style="text-align:left"><a href="https://github.com/riteshvd/groundlens#design">GroundLens · retrieval and citation checks</a></td>
+</tr>
+<tr>
+<td style="text-align:left">What should a model be allowed to execute against a database?</td>
+<td style="text-align:left"><a href="https://github.com/riteshvd/querycanvas#how-execution-is-bounded">QueryCanvas · bounded tool use and read-only SQL</a></td>
+</tr>
+<tr>
+<td style="text-align:left">What happens if a worker crashes after the receiver processes a request?</td>
+<td style="text-align:left"><a href="https://github.com/riteshvd/relayqueue#how-delivery-works">RelayQueue · at-least-once delivery</a></td>
+</tr>
+<tr>
+<td style="text-align:left">How do you prevent a valid user from overwriting another user's newer edit?</td>
+<td style="text-align:left"><a href="https://github.com/riteshvd/supportdesk#architecture-and-decisions">SupportDesk · authorization and concurrency</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Can a running deployment be traced back to the code that produced it?</td>
+<td style="text-align:left"><a href="https://github.com/riteshvd/enterprise-cicd-platform#application">Enterprise CI/CD · deployment metadata</a></td>
+</tr>
+</tbody>
+</table>
+<p><a name="portfolio-toolbox"></a></p>
+<h2>Toolbox 🛠️</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Layer</th>
+<th style="text-align:left">Technologies and focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Languages &amp; application development</strong></td>
+<td style="text-align:left">Python · TypeScript · Java · SQL · React · FastAPI · REST APIs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Applied AI</strong></td>
+<td style="text-align:left">RAG · BM25 · Embeddings · Ollama · Tool calling · Citation validation</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Data &amp; backend systems</strong></td>
+<td style="text-align:left">PostgreSQL · SQLite · Webhooks · Authentication · Background workers</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Cloud &amp; delivery</strong></td>
+<td style="text-align:left">AWS · Azure · Docker · Kubernetes · Terraform · GitHub Actions · Jenkins · Linux</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Observability</strong></td>
+<td style="text-align:left">Prometheus · Grafana · Azure Monitor · Log Analytics</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 align="center">Let's build something useful. 🤝</h2>
+<p align="center">
+  Open to <strong>software engineering</strong>, <strong>applied AI</strong>, and <strong>cloud engineering</strong> opportunities.
+</p>
+<p align="center">
+  <a href="mailto:dommarajuritesh@gmail.com"><img src="./assets/contact.png" width="190" alt="Get in touch by email" /></a>
+</p>
+<p align="center">
+  <a href="mailto:dommarajuritesh@gmail.com">dommarajuritesh@gmail.com</a>
+</p>
+</article></main></body></html>
