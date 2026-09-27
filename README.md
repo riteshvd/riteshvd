@@ -38,22 +38,10 @@ An audit-trail prototype for recording software events and checking their integr
 
 Each repository includes setup instructions and implementation details. Visit [ritesh.info](https://ritesh.info) for project previews and my experience.
 
-## Technical skills
+## Core skills
 
-Tools and techniques used across my work, research, and projects.
-
-| Area | Skills |
-| --- | --- |
-| **Languages** | Python, Java, C++, JavaScript, TypeScript, SQL, Bash |
-| **Frontend** | React, HTML, CSS, Vite |
-| **Backend & APIs** | Spring Boot, Node.js, NestJS, FastAPI, Fastify, Flask, REST APIs, OpenAPI / Swagger |
-| **Databases** | PostgreSQL, SQLite, Redis, SQLAlchemy, Flyway |
-| **AI & LLM systems** | LangChain, Pinecone, RAG, knowledge graphs, embeddings, keyword and vector search, BM25, Ollama, Llama 70B, prompt testing, LLM evaluation, agent workflows |
-| **AWS** | EKS, ECS Fargate, ECR, RDS, S3, Application Load Balancer, CloudFront, IAM, Secrets Manager, ACM |
-| **Azure** | AKS, Azure Container Registry, Key Vault |
-| **DevOps & delivery** | Terraform, Docker, Docker Compose, Kubernetes, Helm, Azure DevOps, GitHub Actions, Jenkins, CI/CD, Git, Linux, Nginx |
-| **Monitoring** | Prometheus, Grafana, Azure Monitor, Log Analytics |
-| **Testing & reliability** | Pytest, API and UI regression testing, integration testing, retrieval evaluation, retry handling, idempotency, deployment troubleshooting |
-| **Security** | Authentication, authorization, request validation, least-privilege access, secret management, Trivy, cryptographic hashing, digital signatures |
+- **Backend development:** Building REST APIs, database workflows, and automated tests with Java, Python, and TypeScript.
+- **Applied AI:** Document retrieval (RAG), knowledge graphs, and testing how AI responses change with different prompts.
+- **Cloud & DevOps:** Deploying services on Azure, managing infrastructure with Terraform and Kubernetes, and troubleshooting CI/CD releases.
 
 Open to software engineering, applied AI, and cloud engineering opportunities.
