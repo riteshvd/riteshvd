@@ -1,0 +1,15 @@
+RITESH GITHUB PROFILE
+
+1. Open https://github.com/riteshvd/riteshvd
+2. Select Add file > Upload files.
+3. Drag README.md and the entire profile-assets folder into the upload area.
+4. Commit with: Redesign profile with project gallery
+
+Keep README.md and profile-assets beside each other in the repository root.
+Do not upload the ZIP itself.
+
+The header adapts to light and dark mode. Every project image and title opens its repository.
+
+Optional: use Customize your pins on your GitHub profile to select SupportDesk, RelayQueue, GraphRAG Studio, TracePilot, and Proof-Pulse. The README does not change GitHub pins.
+
+Preview images approximate GitHub rendering; spacing can differ slightly on GitHub. No changes have been published to your GitHub account.

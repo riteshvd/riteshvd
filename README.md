@@ -1,47 +1,77 @@
-# Hi, I'm Ritesh.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-assets/header-light.svg">
+  <img alt="Ritesh Varma Dommaraju. Software engineer. Full-stack applications, backend systems, and cloud." src="profile-assets/header-light.svg" width="100%">
+</picture>
 
-I'm a software engineer focused on applied AI, backend systems, and cloud delivery. I have a master's in Computer Science from Southern Illinois University Carbondale.
+<p>
+  <a href="https://ritesh.info"><strong>Portfolio ↗</strong></a>&nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/riteshvarmad/">LinkedIn</a>&nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="mailto:dommarajuritesh@gmail.com">Email</a>&nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="#selected-work">Selected work ↓</a>
+</p>
 
-**[Portfolio & experience](https://ritesh.info)** · [LinkedIn](https://www.linkedin.com/in/riteshvarmad/) · [Email](mailto:dommarajuritesh@gmail.com)
+<br>
 
-## Selected projects
+<p>I’m Ritesh, a software engineer with a background in cloud and DevOps. I build web applications across the interface, API, and database, and I enjoy working through the details that make them useful.</p>
 
-### GraphRAG Studio
+<h2>Selected work</h2>
+<p>A few projects across full-stack development, backend systems, and applied AI. Open a project to explore the code.</p>
 
-A document research tool for finding information spread across multiple files. It combines keyword and vector search, maps connections between passages, and keeps source citations visible so readers can check the evidence.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p><sub>01 / FULL-STACK APPLICATION</sub></p>
+      <h3><a href="https://github.com/riteshvd/supportdesk">SupportDesk ↗</a></h3>
+      <a href="https://github.com/riteshvd/supportdesk"><img src="profile-assets/supportdesk.png" width="100%" alt="SupportDesk: ticket inbox with status filters, priorities, and team assignments"></a>
+      <p>A shared inbox for support requests. Sign in, assign tickets, and follow updates, with workspace permissions and protection against conflicting edits.</p>
+      <p><code>React</code> <code>FastAPI</code> <code>PostgreSQL</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <p><sub>02 / BACKEND &amp; DASHBOARD</sub></p>
+      <h3><a href="https://github.com/riteshvd/relayqueue">RelayQueue ↗</a></h3>
+      <a href="https://github.com/riteshvd/relayqueue"><img src="profile-assets/relayqueue.png" width="100%" alt="RelayQueue: event dashboard with a webhook payload and its delivery attempt history"></a>
+      <p>A webhook service with a delivery dashboard. Submit events, inspect each attempt, and replay failures while background workers handle retries.</p>
+      <p><code>TypeScript</code> <code>Fastify</code> <code>SQLite</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><sub>03 / DOCUMENT SEARCH</sub></p>
+      <h3><a href="https://github.com/riteshvd/graphrag-studio">GraphRAG Studio ↗</a></h3>
+      <a href="https://github.com/riteshvd/graphrag-studio"><img src="profile-assets/graphrag-studio.png" width="100%" alt="GraphRAG Studio: document research interface with source evidence and an interactive relationship graph"></a>
+      <p>Search across documents and explore their connections in an interactive graph. Inspect the original passages behind an answer without leaving the workspace.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <p><sub>04 / AI EVALUATION</sub></p>
+      <h3><a href="https://github.com/riteshvd/tracepilot">TracePilot ↗</a></h3>
+      <a href="https://github.com/riteshvd/tracepilot"><img src="profile-assets/tracepilot.png" width="100%" alt="TracePilot: evaluation workspace for saved experiments, case results, and comparisons"></a>
+      <p>A workspace for testing AI responses. Compare prompt versions, inspect failed cases, and save review notes alongside repeatable evaluation runs.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <p><sub>05 / EVENT INTEGRITY</sub></p>
+      <h3><a href="https://github.com/riteshvd/Proof-Pulse">Proof-Pulse ↗</a></h3>
+      <p>An audit-trail prototype connecting a TypeScript ingestion service to a Java ledger. It records software events, checks linked history, and creates signed evidence bundles for verification.</p>
+      <p><code>Java</code> <code>TypeScript</code> <code>PostgreSQL</code></p>
+    </td>
+  </tr>
+</table>
 
-[View repository](https://github.com/riteshvd/graphrag-studio) · Java, Spring Boot, JavaScript
+<br>
 
-### TracePilot
+<h2>Across the stack</h2>
 
-A testing workspace for comparing AI responses when prompts change. It saves prompt and dataset versions, runs repeatable checks, and shows individual failures alongside side-by-side results.
+<p><strong>Interface</strong>&nbsp; React, TypeScript, HTML &amp; CSS<br>
+<strong>Application</strong>&nbsp; Java, Spring Boot, Python, FastAPI, Node.js<br>
+<strong>Data &amp; delivery</strong>&nbsp; SQL, PostgreSQL, Docker, Azure, Terraform</p>
 
-[View repository](https://github.com/riteshvd/tracepilot) · Java, Spring Boot, JavaScript
+<p>I completed my master’s in Computer Science at Southern Illinois University Carbondale. My cloud and DevOps background shapes how I think about deployment, failures, and keeping an application understandable after it ships.</p>
 
-### ChangeWeave
+<hr>
 
-A tool for renaming shared TypeScript fields across connected projects. It uses the compiler to find affected references, generates patches for review, checks compilation, and flags changes that need a developer's judgment.
-
-[View repository](https://github.com/riteshvd/ChangeWeave) · TypeScript, Node.js, SQLite
-
-### IncidentAtlas
-
-A workspace for investigating failures across connected services. It brings together logs, request traces, and timelines, ranks possible causes with supporting evidence, and saves investigation notes for later review.
-
-[View repository](https://github.com/riteshvd/incidentatlas) · Python, JavaScript, SQLite
-
-### Proof-Pulse
-
-An audit-trail prototype for recording software events and checking their integrity. It links records using cryptographic hashes, checks for changes to the linked history, and produces signed evidence bundles that can be verified.
-
-[View repository](https://github.com/riteshvd/Proof-Pulse) · Java, Spring Boot, TypeScript, PostgreSQL
-
-Each repository includes setup instructions and implementation details. Visit [ritesh.info](https://ritesh.info) for project previews and my experience.
-
-## Core skills
-
-- **Backend development:** Building REST APIs, database workflows, and automated tests with Java, Python, and TypeScript.
-- **Applied AI:** Document retrieval (RAG), knowledge graphs, and testing how AI responses change with different prompts.
-- **Cloud & DevOps:** Deploying services on Azure, managing infrastructure with Terraform and Kubernetes, and troubleshooting CI/CD releases.
-
-Open to software engineering, applied AI, and cloud engineering opportunities.
+<p><strong>Have something in mind?</strong> <a href="mailto:dommarajuritesh@gmail.com">Let’s talk ↗</a><br>
+<sub>More projects and experience at <a href="https://ritesh.info">ritesh.info</a></sub></p>
