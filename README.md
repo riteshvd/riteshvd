@@ -21,53 +21,66 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><sub>01 / FULL-STACK APPLICATION</sub></p>
-      <h3><a href="https://github.com/riteshvd/supportdesk">SupportDesk ↗</a></h3>
-      <a href="https://github.com/riteshvd/supportdesk"><img src="profile-assets/supportdesk.png" width="100%" alt="SupportDesk: ticket inbox with status filters, priorities, and team assignments"></a>
-      <p>A shared inbox for support requests. Sign in, assign tickets, and follow updates, with workspace permissions and protection against conflicting edits.</p>
-      <p><code>React</code> <code>FastAPI</code> <code>PostgreSQL</code></p>
+      <p><sub>01 / CLOUD &amp; DELIVERY</sub></p>
+      <h3><a href="https://github.com/riteshvd/enterprise-cicd-platform">Enterprise CI/CD Platform ↗</a></h3>
+      <a href="https://github.com/riteshvd/enterprise-cicd-platform"><img src="profile-assets/cicd-cover.svg" width="100%" alt="Illustrated deployment workflow for the AWS CI/CD platform"></a>
+      <p>An AWS deployment project connecting infrastructure, container builds, and Kubernetes releases. Includes vulnerability scanning, deployment metadata, and monitoring.</p>
+      <p><code>AWS</code> <code>Terraform</code> <code>Kubernetes</code> <code>GitHub Actions</code></p>
     </td>
     <td width="50%" valign="top">
-      <p><sub>02 / BACKEND &amp; DASHBOARD</sub></p>
-      <h3><a href="https://github.com/riteshvd/relayqueue">RelayQueue ↗</a></h3>
-      <a href="https://github.com/riteshvd/relayqueue"><img src="profile-assets/relayqueue.png" width="100%" alt="RelayQueue: event dashboard with a webhook payload and its delivery attempt history"></a>
-      <p>A webhook service with a delivery dashboard. Submit events, inspect each attempt, and replay failures while background workers handle retries.</p>
-      <p><code>TypeScript</code> <code>Fastify</code> <code>SQLite</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><sub>03 / DOCUMENT SEARCH</sub></p>
+      <p><sub>02 / DOCUMENT SEARCH</sub></p>
       <h3><a href="https://github.com/riteshvd/graphrag-studio">GraphRAG Studio ↗</a></h3>
-      <a href="https://github.com/riteshvd/graphrag-studio"><img src="profile-assets/graphrag-studio.png" width="100%" alt="GraphRAG Studio: document research interface with source evidence and an interactive relationship graph"></a>
+      <a href="https://github.com/riteshvd/graphrag-studio"><img src="profile-assets/graphrag-studio.png" width="100%" alt="GraphRAG Studio document workspace with relationship graph and source evidence"></a>
       <p>Search across documents and explore their connections in an interactive graph. Inspect the original passages behind an answer without leaving the workspace.</p>
       <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <p><sub>04 / AI EVALUATION</sub></p>
-      <h3><a href="https://github.com/riteshvd/tracepilot">TracePilot ↗</a></h3>
-      <a href="https://github.com/riteshvd/tracepilot"><img src="profile-assets/tracepilot.png" width="100%" alt="TracePilot: evaluation workspace for saved experiments, case results, and comparisons"></a>
-      <p>A workspace for testing AI responses. Compare prompt versions, inspect failed cases, and save review notes alongside repeatable evaluation runs.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
+      <p><sub>03 / CODE REVIEW</sub></p>
+      <h3><a href="https://github.com/riteshvd/mergemind">MergeMind ↗</a></h3>
+      <a href="https://github.com/riteshvd/mergemind"><img src="profile-assets/mergemind-cover.svg" width="100%" alt="MergeMind illustrated project cover: inspect changes, findings, and review decisions"></a>
+      <p>A Java code review project focused on inspecting changes, linking findings to source code, and recording review decisions.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>GitHub API</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <p><sub>04 / EVENT INTEGRITY</sub></p>
+      <h3><a href="https://github.com/riteshvd/Proof-Pulse">ProofPulse ↗</a></h3>
+      <a href="https://github.com/riteshvd/Proof-Pulse"><img src="profile-assets/proofpulse-cover.svg" width="100%" alt="ProofPulse illustrated project cover: event recording, linked history, and evidence verification"></a>
+      <p>An audit-trail prototype connecting a TypeScript ingestion service to a Java ledger. It checks linked event history and creates signed evidence bundles for verification.</p>
+      <p><code>Spring Boot</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Redis</code></p>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <p><sub>05 / EVENT INTEGRITY</sub></p>
-      <h3><a href="https://github.com/riteshvd/Proof-Pulse">Proof-Pulse ↗</a></h3>
-      <p>An audit-trail prototype connecting a TypeScript ingestion service to a Java ledger. It records software events, checks linked history, and creates signed evidence bundles for verification.</p>
-      <p><code>Java</code> <code>TypeScript</code> <code>PostgreSQL</code></p>
+    <td width="50%" valign="top">
+      <p><sub>05 / AI EVALUATION</sub></p>
+      <h3><a href="https://github.com/riteshvd/tracepilot">TracePilot ↗</a></h3>
+      <a href="https://github.com/riteshvd/tracepilot"><img src="profile-assets/tracepilot.png" width="100%" alt="TracePilot evaluation workspace for saved experiments, case results, and comparisons"></a>
+      <p>A workspace for testing AI responses. Compare prompt versions, inspect failed cases, and save review notes alongside repeatable evaluation runs.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <p><sub>06 / FULL-STACK APPLICATION</sub></p>
+      <h3><a href="https://github.com/riteshvd/supportdesk">SupportDesk ↗</a></h3>
+      <a href="https://github.com/riteshvd/supportdesk"><img src="profile-assets/supportdesk.png" width="100%" alt="SupportDesk ticket inbox with status filters, priorities, and team assignments"></a>
+      <p>A shared inbox for support requests. Sign in, assign tickets, and follow updates, with workspace permissions and protection against conflicting edits.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>FastAPI</code> <code>PostgreSQL</code></p>
     </td>
   </tr>
 </table>
 
 <br>
 
-<h2>Across the stack</h2>
+<h2>Tech stack</h2>
 
-<p><strong>Interface</strong>&nbsp; React, TypeScript, HTML &amp; CSS<br>
-<strong>Application</strong>&nbsp; Java, Spring Boot, Python, FastAPI, Node.js<br>
-<strong>Data &amp; delivery</strong>&nbsp; SQL, PostgreSQL, Docker, Azure, Terraform</p>
+<table>
+  <tr><td><strong>Frontend</strong></td><td>React, TypeScript, JavaScript, HTML &amp; CSS</td></tr>
+  <tr><td><strong>Backend</strong></td><td>Java, Spring Boot, Python, FastAPI, Node.js, NestJS, Flask</td></tr>
+  <tr><td><strong>Data</strong></td><td>PostgreSQL, Redis, SQLite</td></tr>
+  <tr><td><strong>Applied AI</strong></td><td>RAG, knowledge graphs, LLM evaluation</td></tr>
+  <tr><td><strong>Cloud &amp; delivery</strong></td><td>AWS, Azure, Docker, Kubernetes, Terraform, GitHub Actions</td></tr>
+  <tr><td><strong>Observability</strong></td><td>Prometheus, Grafana</td></tr>
+</table>
 
 <p>I completed my master’s in Computer Science at Southern Illinois University Carbondale. My cloud and DevOps background shapes how I think about deployment, failures, and keeping an application understandable after it ships.</p>
 

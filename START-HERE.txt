@@ -10,6 +10,8 @@ Do not upload the ZIP itself.
 
 The header adapts to light and dark mode. Every project image and title opens its repository.
 
-Optional: use Customize your pins on your GitHub profile to select SupportDesk, RelayQueue, GraphRAG Studio, TracePilot, and Proof-Pulse. The README does not change GitHub pins.
+Optional: use Customize your pins on your GitHub profile to select Enterprise CI/CD Platform, GraphRAG Studio, MergeMind, ProofPulse, TracePilot, and SupportDesk. The README does not change GitHub pins.
 
 Preview images approximate GitHub rendering; spacing can differ slightly on GitHub. No changes have been published to your GitHub account.
+
+Project covers for Enterprise CI/CD Platform, MergeMind, and ProofPulse are illustrations. Other project images are repository screenshots. MergeMind's public repository was empty when these files were prepared; its summary uses the earlier project README.
