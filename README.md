@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="profile-assets/header-light.svg">
-  <img alt="Ritesh Varma Dommaraju. Software engineer. Full-stack applications, backend systems, and cloud." src="profile-assets/header-light.svg" width="100%">
+  <img alt="Ritesh Varma Dommaraju. Software Engineer. Full-Stack Applications, Backend Systems, and Cloud Infrastructure." src="profile-assets/header-light.svg" width="100%">
 </picture>
 
 <p>
@@ -13,7 +13,7 @@
 
 <br>
 
-<p>I’m Ritesh, a software engineer with a background in cloud and DevOps. I build web applications across the interface, API, and database, and I enjoy working through the details that make them useful.</p>
+<p>I’m Ritesh, a Software Engineer with 3 years of experience building full-stack applications, distributed backend microservices, and cloud infrastructure across high-volume enterprise platforms like <strong>Walmart</strong> and <strong>U.S. Bank</strong>. I specialize in designing scalable APIs, automating deployment pipelines, and building practical AI/ML agent workflows.</p>
 
 <h2>Selected work</h2>
 <p>A few projects across full-stack development, backend systems, and applied AI. Open a project to explore the code.</p>
@@ -32,7 +32,7 @@
       <h3><a href="https://github.com/riteshvd/graphrag-studio">GraphRAG Studio ↗</a></h3>
       <a href="https://github.com/riteshvd/graphrag-studio"><img src="profile-assets/graphrag-studio.png" width="100%" alt="GraphRAG Studio document workspace with relationship graph and source evidence"></a>
       <p>Search across documents and explore their connections in an interactive graph. Inspect the original passages behind an answer without leaving the workspace.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>LangChain</code> <code>Pinecone</code></p>
     </td>
   </tr>
   <tr>
@@ -57,7 +57,7 @@
       <h3><a href="https://github.com/riteshvd/tracepilot">TracePilot ↗</a></h3>
       <a href="https://github.com/riteshvd/tracepilot"><img src="profile-assets/tracepilot.png" width="100%" alt="TracePilot evaluation workspace for saved experiments, case results, and comparisons"></a>
       <p>A workspace for testing AI responses. Compare prompt versions, inspect failed cases, and save review notes alongside repeatable evaluation runs.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>JavaScript</code></p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>Python</code> <code>FastAPI</code></p>
     </td>
     <td width="50%" valign="top">
       <p><sub>06 / FULL-STACK APPLICATION</sub></p>
@@ -74,17 +74,18 @@
 <h2>Tech stack</h2>
 
 <table>
+  <tr><td><strong>Languages</strong></td><td>Python, Java, C++, SQL, Bash, Go</td></tr>
   <tr><td><strong>Frontend</strong></td><td>React, TypeScript, JavaScript, HTML &amp; CSS</td></tr>
-  <tr><td><strong>Backend</strong></td><td>Java, Spring Boot, Python, FastAPI, Node.js, NestJS, Flask</td></tr>
-  <tr><td><strong>Data</strong></td><td>PostgreSQL, Redis, SQLite</td></tr>
-  <tr><td><strong>Applied AI</strong></td><td>RAG, knowledge graphs, LLM evaluation</td></tr>
-  <tr><td><strong>Cloud &amp; delivery</strong></td><td>AWS, Azure, Docker, Kubernetes, Terraform, GitHub Actions</td></tr>
-  <tr><td><strong>Observability</strong></td><td>Prometheus, Grafana</td></tr>
+  <tr><td><strong>Backend</strong></td><td>Java (Spring Boot), Python (FastAPI/Flask), Node.js (NestJS), REST APIs, GraphQL</td></tr>
+  <tr><td><strong>Data &amp; Caching</strong></td><td>PostgreSQL, Redis, Flyway, SQLite</td></tr>
+  <tr><td><strong>Applied AI &amp; LLMs</strong></td><td>LangChain, Pinecone, RAG architectures, Knowledge Graphs, PyTorch, MLflow</td></tr>
+  <tr><td><strong>Cloud &amp; Delivery</strong></td><td>AWS (EKS, ECS, Lambda, S3, RDS), Azure (AKS), Docker, Kubernetes, Terraform, Helm, GitHub Actions, Azure DevOps</td></tr>
+  <tr><td><strong>Monitoring &amp; Observability</strong></td><td>Prometheus, Grafana, Datadog, Splunk, Azure Monitor, Log Analytics</td></tr>
 </table>
 
-<p>I completed my master’s in Computer Science at Southern Illinois University Carbondale. My cloud and DevOps background shapes how I think about deployment, failures, and keeping an application understandable after it ships.</p>
+<p>I completed my Master of Science in Computer Science at Southern Illinois University Carbondale, focusing on research in LLM reliability, collaborative coding, and knowledge graphs. My experience across enterprise platforms shapes how I build for resilience, automation, and long-term maintainability.</p>
 
 <hr>
 
-<p><strong>Have something in mind?</strong> <a href="mailto:dommarajuritesh@gmail.com">Let’s talk ↗</a><br>
+<p><strong>Have something in mind?</strong> <a href="mailto:dommarajuritesh@gmail.com">Let’s talk ↗</a> &nbsp;|&nbsp; 📞 (901) 522-5727<br>
 <sub>More projects and experience at <a href="https://ritesh.info">ritesh.info</a></sub></p>
